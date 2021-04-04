@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>76506097156-jgrqdvfg51qf5elnrjf62s5k2pfs3tbt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.76506097156-jgrqdvfg51qf5elnrjf62s5k2pfs3tbt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB1yIEHxsruYCTCSVvnhjKR4gE3rP_4Y50</string>
+	<key>GCM_SENDER_ID</key>
+	<string>76506097156</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.technovadi.kelimelik</string>
+	<key>PROJECT_ID</key>
+	<string>kelimelik-974c0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kelimelik-974c0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:76506097156:ios:2092a6f2c013debed4b751</string>
+	<key>DATABASE_URL</key>
+	<string>https://kelimelik-974c0-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "76506097156",
+    "firebase_url": "https://kelimelik-974c0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kelimelik-974c0",
+    "storage_bucket": "kelimelik-974c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76506097156:android:a5bbdd844a88e828d4b751",
+        "android_client_info": {
+          "package_name": "com.technovadi.kelimelik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76506097156-kk0nvqe1ncovrlh3c89gib7bjqpj5qlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZYL2SG75v51zlisXkKccB7bUUIhT9pc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76506097156-kk0nvqe1ncovrlh3c89gib7bjqpj5qlr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "76506097156-jgrqdvfg51qf5elnrjf62s5k2pfs3tbt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.technovadi.kelimelik"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
