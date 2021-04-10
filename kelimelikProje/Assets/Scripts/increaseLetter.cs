@@ -17,7 +17,7 @@ public class increaseLetter : MonoBehaviour
     public List<Questions> QuestionsList;
     [HideInInspector]
     public Questions CurrentQuestion;
-    [SerializeField] private TMP_Text txtQuestion, txtQuestionPoint, txtUserPoint, txtDisplayName, txtPlayTime, txtRemainTime;
+    [SerializeField] private TMP_Text txtQuestion, txtQuestionPoint, txtQuestionNumber, txtUserPoint, txtDisplayName, txtPlayTime, txtRemainTime;
     public TMP_InputField tbxGuess;
     public Button btnGetLetter, btnGuess, btnAnswer;
     public string popUpMessage;
@@ -121,9 +121,11 @@ public class increaseLetter : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    int RandomQuestion, UserPoint;
+    int RandomQuestion, UserPoint, QuestionNumber;
     void GetQuestion()
     {
+        QuestionNumber++;
+
         Debug.Log("Puan: " + UserPoint);
         txtQuestion.text = "Soru Yok!";
         foreach (Transform obje in this.transform)
@@ -133,6 +135,7 @@ public class increaseLetter : MonoBehaviour
 
         if (QuestionsList.Count >0)
         {
+            txtQuestionNumber.text = ("Soru Numarası " + QuestionNumber+ "/14" );
             timer.StartTimer();
             BtnGetLetterEnable();
             BtnAnswerEnable();        
@@ -207,6 +210,8 @@ public class increaseLetter : MonoBehaviour
     }
     public void ReqLetter()
     {
+        BtnGetLetterDisable();
+
         if (CurrentQuestion.Acilmayanlar.Count > 1)
         {
             int randomLetter = Random.Range(0, CurrentQuestion.Acilmayanlar.Count);
@@ -222,9 +227,8 @@ public class increaseLetter : MonoBehaviour
                 BtnGetLetterDisable();
             }
             else
-            {
-                BtnGetLetterDisable();
-                Invoke("BtnGetLetterEnable", 1.1f);
+            {            
+                Invoke("BtnGetLetterEnable", 1.4f);
             }
             GetQestionPoint();
         }

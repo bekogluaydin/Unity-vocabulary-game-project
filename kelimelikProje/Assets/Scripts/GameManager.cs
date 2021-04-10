@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
     public void OpenProfile()
     {
         GetUser();
+        addQuestionScene.transform.DOMoveX(-12.6f, 1.0f);
         profileScene.transform.DOMoveY(0, 1.5f).SetEase(Ease.OutBounce);
     }
     public void CloseProfile()
@@ -72,6 +73,7 @@ public class GameManager : MonoBehaviour
 
     public void OpenAddQestion()
     {
+        profileScene.transform.DOMoveY(9, 1.0f);
         addQuestionScene.transform.DOMoveX(0, 1.5f).SetEase(Ease.OutBounce);
     }
     public void CloseAddQestion()
