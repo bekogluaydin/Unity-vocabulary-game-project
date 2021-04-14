@@ -86,6 +86,9 @@ public class increaseLetter : MonoBehaviour
                     }
                     else Debug.Log("İstenilen levele uymuyor soru.");
                 }
+                Debug.Log("soru list: " + QuestionsList.Count);
+
+
 
                 //for (int i = 0; i < snapshot.ChildrenCount; i++)
                 //{
@@ -99,7 +102,6 @@ public class increaseLetter : MonoBehaviour
                 //}
                 //questions1 = JsonUtility.FromJson<Questions>(snapshot.Child("2").GetRawJsonValue());
                 //Debug.Log("cevap: " + questions1.answer);
-                Debug.Log("soru list: " + QuestionsList.Count);
             }
         });
     }
