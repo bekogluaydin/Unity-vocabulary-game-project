@@ -47,15 +47,11 @@ The climb button is normally deactivated. It becomes active when it comes to the
 
 
 # Sample Level Game Over Screen
-When the character we manage dies (by the enemy or falls down), the endgame panel becomes active.
 
-1. Main Menu; returns to the main menu.
-2. RePlay; restarts the active episode (scene).
-3. Exit; quit the game
 
-![SampleLevel_gameOverPanel](https://user-images.githubusercontent.com/51875713/132951936-7f637f6a-86ad-43ed-8bdf-23f2d7c98b3f.png)
+
 
 # Sample Level Next Level Pass
-When the chapter is completed successfully, this panel opens while moving to the next chapter.
 
-![SampleLevel_nextLevelPass](https://user-images.githubusercontent.com/51875713/132951938-33f2c8a5-e5a4-4fd5-a8ec-34ddbfef69a4.png)
+
+
