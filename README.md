@@ -35,12 +35,12 @@ On the top right of the main menu, there is the logged in user name and when it 
 ![Main Menu_Login1](https://user-images.githubusercontent.com/51875713/132955551-5086b8d0-fadc-46ca-bad0-e8e45e16e3ca.png)
 
 ## Main Menu Edit Profile
-Sample designs for a level(Level 3). As I said, assets are free and i got them from asset store.
+In this section, you can update your name and age information or delete your account.
 
 ![Main Menu_EditProfile](https://user-images.githubusercontent.com/51875713/132955549-6613a2d8-836b-4b6d-ad5c-4e209174b323.png)
 
 # Main Menu Add Question
-The climb button is normally deactivated. It becomes active when it comes to the relevant ladder. When the climb button is active, I deactivate the attack and jump buttons to avoid problems such as bugs.
+In this section you can add new questions and answers to the Firebase question table.
 
 
 ![Main Menu_AddQuestion](https://user-images.githubusercontent.com/51875713/132955548-2f4be538-156b-4a4c-8037-1384384ca317.png)
