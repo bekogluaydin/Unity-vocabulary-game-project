@@ -47,7 +47,7 @@ In this section you can add new questions and answers to the Firebase question t
 
 
 ## Game Started
-When "Start" is pressed in the main menu, this screen opens directly (in game started).
+When "Start" is pressed in the main menu, this screen opens directly (in game started). You have 14 questions and 4 minutes to answer them. The user does not need to answer all the questions. How many questions does he answer in 4 minutes?
 
 ![Oyun Başladı 1](https://user-images.githubusercontent.com/51875713/136702644-08047402-4215-4c26-867d-1a8756d8f60c.png)
 
