@@ -46,12 +46,27 @@ In this section you can add new questions and answers to the Firebase question t
 ![Main Menu_AddQuestion](https://user-images.githubusercontent.com/51875713/132955548-2f4be538-156b-4a4c-8037-1384384ca317.png)
 
 
-# Sample Level Game Over Screen
+## Game Started
+When "Start" is pressed in the main menu, this screen opens directly (in game started).
+
+![Oyun Başladı 1](https://user-images.githubusercontent.com/51875713/136702644-08047402-4215-4c26-867d-1a8756d8f60c.png)
 
 
+# Get A Letter
+When the "Harf Al" button is pressed, random a letter are opened in an animated way in the honeycombs below. The "Harf Al" button remains inactive until the letter opening animation ends.
+![Harf Al](https://user-images.githubusercontent.com/51875713/136702642-9627a6c9-7fbd-4369-9b78-509f399d7d50.png)
 
+![Harf Al Hakkı Kalmadı](https://user-images.githubusercontent.com/51875713/136702640-70c68334-c1ca-4693-876d-47419368d9ca.png)
 
-# Sample Level Next Level Pass
+# Questin Point
+Questions come according to a rule. The answer to the simplest question consists of 4 characters. The hardest is 10. And for each number of characters (such as 4, 5 .... 9,10), there are 2 questions for each. 2 question of 4 characters, then 2 of 5, and this continues up to 10 characters.
+
+The score of the question is the number of characters in the answer multiplied by 100. So a 4-character answer = 4*100 = 400 points.
+If "Harf Al" button pressed, 100 points are deducted from unlocked a letter.
+
+![Soru Puan](https://user-images.githubusercontent.com/51875713/136702646-d48c09b7-8063-4c25-ade1-47c3cddb8699.png)
+Here, a 7 character question has 4 characters unlocked and the question's score is now 300 instead of 700.
+![Soru Puan1](https://user-images.githubusercontent.com/51875713/136702633-2eb300a4-9021-4958-8f13-e35b1100631c.png)
 
 
 
