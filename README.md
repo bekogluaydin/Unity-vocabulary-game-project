@@ -54,8 +54,10 @@ When "Start" is pressed in the main menu, this screen opens directly (in game st
 
 # Get A Letter
 When the "Harf Al" button is pressed, random a letter are opened in an animated way in the honeycombs below. The "Harf Al" button remains inactive until the letter opening animation ends.
+
 ![Harf Al](https://user-images.githubusercontent.com/51875713/136702642-9627a6c9-7fbd-4369-9b78-509f399d7d50.png)
-The number of letters that can be received is the number of characters in the answer minus one. (n-1)
+
+The number of letters that can be received is the number of characters in the answer minus one. (n-1) When this number is reached, a pop-up message "You do not have the right to buy letters" appears on the screen.
 ![Harf Al Hakkı Kalmadı](https://user-images.githubusercontent.com/51875713/136702640-70c68334-c1ca-4693-876d-47419368d9ca.png)
 
 # Questin Point
@@ -68,5 +70,20 @@ If "Harf Al" button pressed, 100 points are deducted from unlocked a letter.
 Here, a 7 character question has 3 characters unlocked and the question's score is now 400 instead of 700.
 ![Soru Puan1](https://user-images.githubusercontent.com/51875713/136702633-2eb300a4-9021-4958-8f13-e35b1100631c.png)
 
+# Answer The Question
+In order for the prediction text field and the Tahmin Et (guess) button to become active, the red button must be pressed first.
 
+When this button is pressed, it becomes deactivated and estimation becomes active. You have 20 seconds to guess.
+![Cevapla](https://user-images.githubusercontent.com/51875713/136702636-673fa392-cc15-40cd-93a7-823676b6e371.png)
+
+The last 10 seconds the counter turns red.
+![Cevapla Son 10 Saniye](https://user-images.githubusercontent.com/51875713/136702634-0025bf9f-94e0-4134-b636-feff5931c15b.png)
+
+If the answer is not entered correctly within 20 seconds, all letters are unlocked in an animated way and the user gets 0 points. Then the next question income.
+![Cevapla SSüre Bitti](https://user-images.githubusercontent.com/51875713/136702635-885578c7-1af6-4951-b126-dfb50ccd9a14.png)
+
+## EndGame
+
+When all questions have been answered or the 4 minutes have elapsed, the endgame screen will appear.
+![gameWin](https://user-images.githubusercontent.com/51875713/136702638-580c14f2-8cd3-4667-9865-ad0d799b13cc.png)
 
