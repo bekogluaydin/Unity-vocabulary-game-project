@@ -55,7 +55,7 @@ When "Start" is pressed in the main menu, this screen opens directly (in game st
 # Get A Letter
 When the "Harf Al" button is pressed, random a letter are opened in an animated way in the honeycombs below. The "Harf Al" button remains inactive until the letter opening animation ends.
 ![Harf Al](https://user-images.githubusercontent.com/51875713/136702642-9627a6c9-7fbd-4369-9b78-509f399d7d50.png)
-
+The number of letters that can be received is the number of characters in the answer minus one. (n-1)
 ![Harf Al Hakkı Kalmadı](https://user-images.githubusercontent.com/51875713/136702640-70c68334-c1ca-4693-876d-47419368d9ca.png)
 
 # Questin Point
@@ -65,7 +65,7 @@ The score of the question is the number of characters in the answer multiplied b
 If "Harf Al" button pressed, 100 points are deducted from unlocked a letter.
 
 ![Soru Puan](https://user-images.githubusercontent.com/51875713/136702646-d48c09b7-8063-4c25-ade1-47c3cddb8699.png)
-Here, a 7 character question has 4 characters unlocked and the question's score is now 300 instead of 700.
+Here, a 7 character question has 3 characters unlocked and the question's score is now 400 instead of 700.
 ![Soru Puan1](https://user-images.githubusercontent.com/51875713/136702633-2eb300a4-9021-4958-8f13-e35b1100631c.png)
 
 
