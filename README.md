@@ -1,4 +1,4 @@
-### vocabulary-game-project-
+# vocabulary-game-project-
 Software Development Laboratory 2 Midterm Project
 
 Most of the assets are from the Asset Store and free assets. So the game may not be very good in terms of UI. My second major game with Unity. The first was the card guessing game. [Unity vocabulary game project link](https://github.com/MyscherzoTR/Unity-vocabulary-game-project) This project was developed for internship 2 and will continue to be developed.
@@ -29,29 +29,61 @@ There are 2 buttons and 2 textbox in the Main Menu.
 
 ![Main Menu](https://user-images.githubusercontent.com/51875713/132955545-7f03684a-59d3-40e2-913b-0a58eb9575c8.png)
 
-# Main Menu Login
+### Main Menu Login
 On the top right of the main menu, there is the logged in user name and when it is clicked, the profile editing screen appears. In the middle, there are start, add question and standings buttons. Standings is not working. When add question is pressed, adding question section opens.
 
 ![Main Menu_Login1](https://user-images.githubusercontent.com/51875713/132955551-5086b8d0-fadc-46ca-bad0-e8e45e16e3ca.png)
 
 ## Main Menu Edit Profile
-Sample designs for a level(Level 3). As I said, assets are free and i got them from asset store.
+In this section, you can update your name and age information or delete your account.
 
 ![Main Menu_EditProfile](https://user-images.githubusercontent.com/51875713/132955549-6613a2d8-836b-4b6d-ad5c-4e209174b323.png)
 
-# Main Menu Add Question
-The climb button is normally deactivated. It becomes active when it comes to the relevant ladder. When the climb button is active, I deactivate the attack and jump buttons to avoid problems such as bugs.
+### Main Menu Add Question
+In this section you can add new questions and answers to the Firebase question table.
 
 
 ![Main Menu_AddQuestion](https://user-images.githubusercontent.com/51875713/132955548-2f4be538-156b-4a4c-8037-1384384ca317.png)
 
 
-# Sample Level Game Over Screen
+## Game Started
+When "Start" is pressed in the main menu, this screen opens directly (in game started). You have 14 questions and 4 minutes to answer them. The user does not need to answer all the questions. How many questions does he answer in 4 minutes?
+
+![Oyun Başladı 1](https://user-images.githubusercontent.com/51875713/136702644-08047402-4215-4c26-867d-1a8756d8f60c.png)
 
 
+### Get A Letter
+When the "Harf Al" button is pressed, random a letter are opened in an animated way in the honeycombs below. The "Harf Al" button remains inactive until the letter opening animation ends.
 
+![Harf Al](https://user-images.githubusercontent.com/51875713/136702642-9627a6c9-7fbd-4369-9b78-509f399d7d50.png)
 
-# Sample Level Next Level Pass
+The number of letters that can be received is the number of characters in the answer minus one. (n-1) When this number is reached, a pop-up message "You do not have the right to buy letters" appears on the screen.
+![Harf Al Hakkı Kalmadı](https://user-images.githubusercontent.com/51875713/136702640-70c68334-c1ca-4693-876d-47419368d9ca.png)
 
+### Questin Point
+Questions come according to a rule. The answer to the simplest question consists of 4 characters. The hardest is 10. And for each number of characters (such as 4, 5 .... 9,10), there are 2 questions for each. 2 question of 4 characters, then 2 of 5, and this continues up to 10 characters.
 
+The score of the question is the number of characters in the answer multiplied by 100. So a 4-character answer = 4*100 = 400 points.
+If "Harf Al" button pressed, 100 points are deducted from unlocked a letter.
+
+![Soru Puan](https://user-images.githubusercontent.com/51875713/136702646-d48c09b7-8063-4c25-ade1-47c3cddb8699.png)
+Here, a 7 character question has 3 characters unlocked and the question's score is now 400 instead of 700.
+![Soru Puan1](https://user-images.githubusercontent.com/51875713/136702633-2eb300a4-9021-4958-8f13-e35b1100631c.png)
+
+### Answer The Question
+In order for the prediction text field and the Tahmin Et (guess) button to become active, the red button must be pressed first.
+
+When this button is pressed, it becomes deactivated and estimation becomes active. You have 20 seconds to guess.
+![Cevapla](https://user-images.githubusercontent.com/51875713/136702636-673fa392-cc15-40cd-93a7-823676b6e371.png)
+
+The last 10 seconds the counter turns red.
+![Cevapla Son 10 Saniye](https://user-images.githubusercontent.com/51875713/136702634-0025bf9f-94e0-4134-b636-feff5931c15b.png)
+
+If the answer is not entered correctly within 20 seconds, all letters are unlocked in an animated way and the user gets 0 points. Then the next question income.
+![Cevapla SSüre Bitti](https://user-images.githubusercontent.com/51875713/136702635-885578c7-1af6-4951-b126-dfb50ccd9a14.png)
+
+## EndGame
+
+When all questions have been answered or the 4 minutes have elapsed, the endgame screen will appear.
+![gameWin](https://user-images.githubusercontent.com/51875713/136702638-580c14f2-8cd3-4667-9865-ad0d799b13cc.png)
 
